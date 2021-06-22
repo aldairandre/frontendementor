@@ -8,7 +8,8 @@
 
 <p>
   Email: aldairandre99@gmail.com<br>
-  linkedin: https://www.linkedin.com/in/aldair-andre-8b655b213/
+  Linkedin: https://www.linkedin.com/in/aldair-andre-8b655b213/<br>
+  Facebook: https://www.facebook.com/profile.php?id=100004942838017
 </p>
 
 LET'S GOOOO :rocket:
