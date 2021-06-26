@@ -1,8 +1,17 @@
+/*Estilos gerais*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: hsl(206, 47%, 93%);
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+/*Cores*/
 
 :root {
     --Cyan: hsl(179, 62%, 43%);
@@ -11,22 +20,20 @@
     --Grayish-Blue: hsl(218, 22%, 67%);
 }
 
-body{
-    background-color: hsl(206, 47%, 93%);
-    font-size: 16px;
-    padding-top: 50px;
-}
+/*Estilo do dos cards*/
 
-main{
+main {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
     border-radius: 9px;
-    font-family:'Karla',sans-serif;
+    font-family: 'Karla', sans-serif;
 }
 
-.convite{
+/*Primeiro Card*/
+
+.convite {
     background-color: var(--Light-Gray);
     padding: 20px 22px;
     border-top-left-radius: 6px;
@@ -38,8 +45,8 @@ main{
     color: var(--Grayish-Blue);
 }
 
-.titulo1{
-    color:var(--Cyan);
+.titulo1 {
+    color: var(--Cyan);
     margin-bottom: 15px;
     font-weight: 800;
 }
@@ -48,6 +55,8 @@ main{
     color: var(--Bright-Yellow);
     margin-bottom: 15px;
 }
+
+/*Segundo Card*/
 
 .subscricao {
     background: #2bb3b1;
@@ -59,11 +68,11 @@ main{
     margin-bottom: 15px;
 }
 
-.s-p{
+.s-p {
     margin-bottom: 15px;
 }
 
-.s-p2{
+.s-p2 {
     color: #9ee1e9;
     margin-bottom: 15px;
 }
@@ -78,22 +87,24 @@ main{
     color: #71dddf;
 }
 
-.entrar{
+.entrar {
     text-align: center;
     margin: 15px 0;
 }
 
-.btn-entrar{
+.btn-entrar {
     width: 100%;
     padding: 14px;
     color: var(--Light-Gray);
     background: var(--Bright-Yellow);
-    border:none;
+    border: none;
     border-radius: 4px;
     box-shadow: 1px 2px 14px rgba(0, 0, 0, 0.3);
 }
 
-.sobre{
+/*Terceiro Card*/
+
+.sobre {
     background: #4abebd;
     padding: 20px 22px;
     border-bottom-left-radius: 6px;
@@ -107,7 +118,19 @@ main{
 }
 
 .sobre p {
-    color: #71dddf;
+    color: var(--Light-Gray);
     line-height: 26px;
-    
+    text-align: left;
+    width: 70%;
+}
+
+/*Roda pe*/
+
+footer {
+    width: 100%;
+    background: var(--Bright-Yellow);
+    padding: 20px;
+    color: #fff;
+
+
 }
