@@ -16,6 +16,7 @@ body{
     width:100%;
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
+    color: var(--pale-blue);
 }
 
 
@@ -24,10 +25,34 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width:80%;
     height: 100%;
     margin: 0 auto;
+    position: relative;
 }
+.container{
+    width: 100%;
+}
+.container-svg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    border-top-right-radius: 5rem;
+}
+.container-svg img:first-child{
+    min-width: fit-content;
+   
+}
+.container-svg{
+    background-color: var(--dark-blue);
+}
+
+.icones{
+    margin-top: 40px;
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: rgb(62, 82, 163); }
 
