@@ -53,7 +53,11 @@ main{
 }
 
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    width: 100%;
+}
 .attribution a { color: rgb(62, 82, 163); }
 
 /*Mobile*/
